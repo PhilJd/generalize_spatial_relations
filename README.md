@@ -45,7 +45,6 @@ requires Mayavi to be installed and running it is extremely slow (~12 hours to g
 all scenes.)
 
 ## Integrate the model into your code
-You can download a pre-trained model trained on all data [here](#todo).
 For a simple example of how you could use this model in your code, see
 `SpatialRelationCNN/inference_example.py`.
-Please note that the code currently runs on GPU-only.
+Please note that the code currently runs on GPU only.
