@@ -7,7 +7,7 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
-from SpatialRelationCNN.utility import utility
+from SpatialRelationCNN.model import utility
 
 import random
 from math import pi
