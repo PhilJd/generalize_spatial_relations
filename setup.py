@@ -15,9 +15,9 @@ requirements = ['numpy', 'tfquaternion', 'pillow']
 try:
     import tensorflow  # noqa
 except ImportError:
-    print("WARNING: Installing CPU-only version of tensorflow. If you have a"
-          "GPU and CUDA available consider installing tensorflow-gpu.")
-    requirements += ['tensorflow']
+    print("WARNING: Installing tensorflow. Make sure you have CUDA"
+          "and CUDNN installed!")
+    requirements += ['tensorflow-gpu']
 
 
 setup(
